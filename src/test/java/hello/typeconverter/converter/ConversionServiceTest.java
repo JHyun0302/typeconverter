@@ -6,6 +6,10 @@ import org.springframework.core.convert.support.DefaultConversionService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * 스프링이 제공하는 ConversionService
+ * 개별 컨버터를 모아두고 묶어서 편리하게 사용
+ */
 public class ConversionServiceTest {
     @Test
     void conversionService() {
