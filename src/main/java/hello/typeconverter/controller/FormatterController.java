@@ -11,6 +11,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.time.LocalDateTime;
 
+/**
+ * 스프링이 제공하는 기본 포멧터: Formatter
+ * <p>
+ * 숫자, 날짜
+ */
 @Controller
 public class FormatterController {
     @GetMapping("/formatter/edit")

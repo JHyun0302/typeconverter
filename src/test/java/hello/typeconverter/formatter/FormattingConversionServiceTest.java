@@ -8,6 +8,9 @@ import org.springframework.format.support.DefaultFormattingConversionService;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+/**
+ * formattingConversionService: 포멧터를 지원하는 컨버전 서비스
+ */
 public class FormattingConversionServiceTest {
 
     @Test
